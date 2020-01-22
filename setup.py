@@ -11,7 +11,6 @@ setup(name='xicam.myplugin',
               'SamplePlugin=xicam.myplugin:MyGUIPlugin'
           ],
           'xicam.plugins.OperationPlugin': [
-              'invert=xicam.sampleplugin.operations:invert'
-              'random_noise=xicam.sampleplugin.operations.noise:random_noise'
+              'fft=xicam.myplugin.operations:fft',
           ]
       })
