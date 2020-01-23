@@ -14,8 +14,4 @@ class MyWorkflow(Workflow):
 
         #workflow = Workflow()
         self.add_operation(fft)
-        self.add_operation(realpart)
-        self.add_operation(absval)
-        self.add_operation(fft2)
-        self.add_operation(absval)
         self.auto_connect_all()
